@@ -1,0 +1,41 @@
+Aquí tienes el código HTML revisado y corregido:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="./CSS/Hoja1.css"> <!-- Corregido: Eliminado espacio en el nombre del archivo CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* Agrega estilos CSS aquí si es necesario */
+    </style>
+</head>
+<body>
+    <div id="barranav">
+        <img src="./IMG/logo-m-y-m-IMG/Diapositiva1.PNG" alt="Logo" id="logo" width="100" height="100"> <!-- Corregido: Cambiado nombre de la carpeta y agregado texto alternativo -->
+        <nav>
+            <ul>
+                <li><a href="#">abc Pagina principal</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contactanos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="divmarquee" style="width: 100%; height: 100px;"> <!-- Corregido: Cambiado atributos width y height por estilo en línea -->
+        <marquee behavior="scroll" direction="left">20% de descuento en nuestros nuevos productos</marquee>
+    </div>
+</body>
+</html>
+```
+
+En las correcciones se han ajustado los siguientes aspectos:
+- Se eliminó el espacio en el nombre del archivo CSS en el enlace `<link>` para evitar problemas de carga.
+- Se corrigió la ruta de la imagen del logo y se agregó un texto alternativo adecuado.
+- Se cambiaron los atributos `width` y `height` en el elemento `<div>` por estilos en línea.
+- Se agregó una etiqueta `<style>` para incluir estilos CSS adicionales si es necesario.
+
+Por favor, inténtalo con estas correcciones y verifica si el código funciona como esperas. ¡Espero que esta información te sea útil!

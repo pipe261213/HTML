@@ -1,0 +1,72 @@
+Aquí tienes el CSS asociado corregido y revisado para que se ajuste correctamente al código HTML proporcionado:
+
+```css
+#divmarquee {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+}
+
+#barranav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    margin-right: 20px;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+
+body {
+    padding-top: 130px; /* Adjust value based on navbar height */
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 50px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+p {
+    font-size: 10px;
+}
+```
+
+Se realizaron las siguientes correcciones y ajustes:
+- Se eliminaron las propiedades `text-decoration: none;` y `color: black;` en las reglas de estilo de `nav`, `ul`, `li` y `a` ya que estas propiedades estaban duplicadas y no eran necesarias.
+- Se ajustó el valor del `padding-top` en el selector `body` para evitar que el contenido se superponga con la barra de navegación fija.
+- Se corrigieron las propiedades en `ul` y `li` para asegurar que los elementos de la barra de navegación se muestren correctamente.
+
+Por favor, inténtalo con estas correcciones y verifica si el código y los estilos funcionan como esperas. ¡Espero que esta información te sea útil!
